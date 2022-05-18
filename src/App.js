@@ -13,8 +13,8 @@ export default function App() {
 
   const onClickClose = useCallback(() => setOpen(false), []);
 
-  const temp = useMemo(() => 1 + 3, []);
-  console.log(temp);
+  const tempp = useMemo(() => 1 + 3, []);
+  console.log(tempp);
 
   return (
     <div className="App">
